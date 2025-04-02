@@ -1,1 +1,6 @@
-  @for (pepperepe of names; track pepperepe){<li>{{pepperepe}}</li>}
+<ul>
+    @for (nomi of names;track nomi) {
+      <li><app-user-item [name]="nomi"></app-user-item>
+      </li>
+     }
+</ul>
